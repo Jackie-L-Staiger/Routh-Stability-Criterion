@@ -5,7 +5,7 @@ clc; clear all; close all;
 
 %% Initialize coefficients (of denominator):
 % e.g. s^4 + 8*s^3 + 32*s^2v+ 80*s + 100 = 0  ==>> [1 8 32 80 100]
-coeff = [1 1 20 78];
+coeff = [1 8 32 80 100];
 
 if all(coeff) == 0 % if any of the elements are 0
     disp('System is NOT STABLE')
